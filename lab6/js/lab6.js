@@ -8,7 +8,7 @@ function rewriteNames() {
     arrayOfNames = ["Kizzmekia Corbett", "Ada Lovelace", "Levar Burton" ];
     let namesV2 = arrayOfNames
     "Before, the names were:" + namesV2
-    "Afterwards the names are:" + namesV2
+
 }
 
 //YOU CAN ADD MORE FUNCTIONS HERE
