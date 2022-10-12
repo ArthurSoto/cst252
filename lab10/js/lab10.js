@@ -17,6 +17,19 @@
 // - -click
 // - - -redirects website
 // - - - -color returns to original color
+document.addEventListener("DOMContentLoaded", () => {
+
+  let infoPanelgoat = document.querySelector('#infoPanel')
+  infoPanelgoat.style.display = "none";
+
+let exitButt = () => {
+    let exitKing = document.querySelector('#infoPanel')
+    exitKing.style.display = "none";
+  }
+
+    let infoPancake = document.querySelector('#exitbutton')
+    infoPancake.addEventListener('click', exitButt);
+
 
 let showPanel = (x) => {
   console.log(x);
@@ -36,5 +49,10 @@ let showPanel = (x) => {
 
   let courseImage = document.querySelector('#courseImage')
   console.log(courseImage);
-  courseImage.;
+  courseImage = document.querySelector('#courseImage').src="img/cst252.jpg";
 }
+
+  let box252 = document.querySelector('.itembox')
+  box252.addEventListener('click', showPanel);
+
+});
