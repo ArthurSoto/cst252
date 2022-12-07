@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>hover</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript">
+function hoverPlayerName(obj) {
+ 	obj.style.cursor = 'pointer';
+ 	obj.style.fontWeight = 'bold';
+}
+</script>
+
+<style type="text/css">
+p:hover {
+cursor:pointer;
+font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+<div onmouseover="hoverPlayerName(this);">Hello There</div>
+<p>Hover over me, I am bold!</p>
+</body>
+</html>
