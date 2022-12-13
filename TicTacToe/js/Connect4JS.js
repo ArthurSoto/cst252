@@ -10,7 +10,7 @@ let checkWinX = () => {
 		alert("Player " + currentPlayer + " has won the game!")
 		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box6'] == 'X' && spaces['box7'] == 'X' && spaces['box8'] == 'X') {
-		alert("Player " + currentPlayer + " has won the game!")
+		alert.set("Player " + currentPlayer + " has won the game!")
 		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box0'] == 'X' && spaces['box3'] == 'X' && spaces['box6'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!")
