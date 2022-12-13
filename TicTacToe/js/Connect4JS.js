@@ -5,39 +5,54 @@ console.log("The code works, you can go ahead and play if there are no errors!")
 let checkWinX = () => {
 	if (spaces['box0'] == 'X' && spaces['box1'] == 'X' && spaces['box2'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!");
+		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box3'] == 'X' && spaces['box4'] == 'X' && spaces['box5'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box6'] == 'X' && spaces['box7'] == 'X' && spaces['box8'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box0'] == 'X' && spaces['box3'] == 'X' && spaces['box6'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box1'] == 'X' && spaces['box4'] == 'X' && spaces['box7'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box2'] == 'X' && spaces['box5'] == 'X' && spaces['box8'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box0'] == 'X' && spaces['box4'] == 'X' && spaces['box8'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textX');
 	} else if (spaces['box2'] == 'X' && spaces['box4'] == 'X' && spaces['box6'] == 'X') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textX');
 	}
 }
 
 let checkWinO = () => {
 	if (spaces['box0'] == 'O' && spaces['box1'] == 'O' && spaces['box2'] == 'O') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textO');
 	} else if (spaces['box3'] == 'O' && spaces['box4'] == 'O' && spaces['box5'] == 'O') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textO');
 	} else if (spaces['box6'] == 'O' && spaces['box7'] == 'O' && spaces['box8'] == 'O') {
 		alert("Player " + currentPlayer + " has won the game!")
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textO');
 	} else if (spaces['box1'] == 'O' && spaces['box4'] == 'O' && spaces['box7'] == 'O') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textO');
 	} else if (spaces['box2'] == 'O' && spaces['box5'] == 'O' && spaces['box8'] == 'O') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textO');
 	} else if (spaces['box0'] == 'O' && spaces['box4'] == 'O' && spaces['box8'] == 'O') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textO');
 	} else if (spaces['box2'] == 'O' && spaces['box4'] == 'O' && spaces['box6'] == 'O') {
 		alert("Player " + currentPlayer + " has won the game!")
+		gameBoard.classList.add('fade-in-textO');
 	}
 }
 
